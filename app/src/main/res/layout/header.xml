@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/header"
+    android:layout_height="200dp">
+    <ImageView
+        android:src="@drawable/avt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="Nguyễn Hải Đăng"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="8dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="dangnhph10362@fpt.edu.vn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

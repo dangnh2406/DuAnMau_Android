@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Login"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/Login"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:label="login"
+        tools:layout="@layout/fragment_layout_login">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/new_acc" />
+    </fragment>
+    <fragment
+    android:id="@+id/new_acc"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+    tools:layout="@layout/fragment_newacc">
+
+    <action
+        android:id="@+id/action_SecondFragment_to_FirstFragment"
+        app:destination="@id/Login"/>
+</fragment>
+    <fragment
+        android:id="@+id/forgot"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        tools:layout="@layout/fragment_forgot">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/new_acc" />
+    </fragment>
+</navigation>

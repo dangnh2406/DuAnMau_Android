@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+
+        android:id="@+id/itemStatistical"
+        android:title="Thống kê" />
+
+        <item
+
+            android:id="@+id/itemPay"
+            android:title="Thanh toán" />
+        <item
+             
+            android:id="@+id/itemBookManage"
+            android:title="Quản lí sách" />
+        <item
+
+            android:id="@+id/itemTypeBook"
+            android:title="Quản lí thể loại sách" />
+
+        <item
+
+        android:id="@+id/itemBillManage"
+        android:title="Quản lí hóa đơn" />
+        <item
+
+            android:id="@+id/itemAccount"
+            android:title="Quản lí tài khoản" />
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                
+                android:id="@+id/itemInfo"
+                android:title="Thông tin" />
+
+            <item
+                
+                android:id="@+id/itemExit"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+
+</menu>
